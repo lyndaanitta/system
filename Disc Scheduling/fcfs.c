@@ -1,3 +1,14 @@
+
+/*
+1. Read the number of requests to access each location
+  on the disk, let it be N
+2. Read the requested location of process in an array
+3. Read the initial header position, head
+4. seek time = seek time + abs(location[i+1] - location[i])
+5. Display the seek time after adding the seek time
+*/
+
+
 #include<stdio.h>
 void main()
 {

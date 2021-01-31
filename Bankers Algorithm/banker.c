@@ -1,6 +1,10 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+// The safety algorithm is used to check the system state means whether the system is in a safe state or not.include
+// Let Requesti is the request array for the process ‘Pi’. Requesti [j] = k means ‘Pi’ process needs k instances of Rj 
+// resource type. At the time   when a process Pi demands  resources, then we follow the below steps.
+// https://www.tutorialandexample.com/bankers-algorithm/
 void print(int x[][10],int n,int m){
         int i,j;
         for(i=0;i<n;i++){
